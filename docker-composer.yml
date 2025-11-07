@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  
+  backend-api:
+    build: .
+    ports:
+      # Mapeia a porta 8080 da VM para a 5000 do contêiner
+      - "8080:5000"
+    environment:
+      - DB_HOST=oracle-db
+      - DB_PASSWORD=Vitta123@
+    depends_on:
+      - oracle-db
+
+  oracle-db:
+    image: gvenzl/oracle-free
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PASSWORD=Vitta123@
