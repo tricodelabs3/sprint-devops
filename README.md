@@ -13,7 +13,7 @@ Para executar este projeto, você precisará de uma VM (Linux) com Docker e Dock
 
 2.  Entre na pasta do projeto:
     ```bash
-    cd vitta-challenge-api
+    cd sprint-devops
     ```
 
 3.  Execute o Docker Compose:
