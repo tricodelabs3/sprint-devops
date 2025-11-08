@@ -1,6 +1,6 @@
 # Projeto Vitta
 
-Este repositório contém os arquivos de DevOps para a Sprint 2.
+Aplicação de uma API Mock
 
 ## Instruções de Deploy e Testes
 
